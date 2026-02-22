@@ -1,0 +1,27 @@
+.page {
+    display: none;
+    padding: 50px 50px;
+    
+}
+
+.page.active {
+    display: block;
+}
+
+header {
+    background-color: #2c3e50;
+    padding: 15px;
+    text-align: left;
+
+}
+button {
+    background: none;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    margin-right:20px;
+    cursor: pointer;
+}
+button:hover {
+    color: #ffe600;
+}
