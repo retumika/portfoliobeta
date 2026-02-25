@@ -52,3 +52,6 @@ a:hover .fa-github {
     color: #ffffff;
     font-size: 1.0rem;
 }
+body {
+    margin: 0 ;
+}
