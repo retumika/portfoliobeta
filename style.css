@@ -1,7 +1,7 @@
 body {
     font-size: 20px; 
     line-height: 1.2;
-    background-color: #a2f4ffde;
+    background-color: #003135de;
     margin: 0 !important;
 }
 header {
@@ -20,11 +20,12 @@ button {
     cursor: pointer;
 }
 button:hover {
-    color: #ffe600;
+    color: #00fff2;
 }
 
 a {
     font-size: 2.0rem;
+    text-decoration: none;
 }
 
 a:hover .fa-github,
@@ -48,7 +49,7 @@ ul {
     font-size: 10.0rem;
     vertical-align: middle; 
     margin-right: 8px;
-    color: #0d1117;
+    color: #fafafa;
 }
 
 .site-header .contact {
@@ -70,7 +71,7 @@ ul {
     border: 2px solid #2c3e50;
     background-color: #00488f;
     border-radius: 10px;
-    max-width: 475px;
+    max-width: 500px;
     margin: 40px auto;
 }
 
