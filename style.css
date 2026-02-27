@@ -74,7 +74,7 @@ ul {
 .page.active {
     display: block;
 }
-.profile-outer-photo {
+.profile-photo {
     position: absolute;
     left: -200px;        
     top: 50px; 
@@ -107,7 +107,7 @@ ul {
         margin: 20px auto;
     }
 
-    .profile-outer-photo {
+    .profile-photo {
         position: static;
         display: block;
         margin: 0 auto 20px;
