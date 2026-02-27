@@ -86,3 +86,7 @@ ul {
     border-radius: 10px;
     object-fit: cover;
 }
+/*スマホ用に実装予定*/
+@media (max-width: 600px) {
+    
+}
