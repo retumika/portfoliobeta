@@ -44,7 +44,6 @@ ul {
 .fa-brands, .fa-github, .fa-x-twitter {
     font-size: 10.0rem;
     vertical-align: middle; 
-    margin-right: 8px;
     color: #ffffff;
 }
 
@@ -117,12 +116,8 @@ ul {
     }
 
     .fa-brands, .fa-github, .fa-x-twitter {
-        font-size: 4.0rem; 
+        font-size: 15.0rem; 
         margin: 10px;
     }
-    .nav-left {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
+    
 }
