@@ -89,7 +89,7 @@ ul {
 @media (max-width: 1000px) {
 
     body {
-        font-size: 24px; 
+        font-size: 25px; 
         line-height: 1.6; 
     }
 
@@ -99,7 +99,7 @@ ul {
 
     button {
         margin: 5px 10px;
-        font-size: 35px;
+        font-size: 50px;
     }
 
     .page {
