@@ -1,5 +1,4 @@
 body {
-    font-size: 20px; 
     line-height: 1.2;
     background-color: #003135de;
     margin: 0 !important;
@@ -15,7 +14,7 @@ button {
     background: none;
     color: #ffffff;
     border: none;
-    font-size: 16px;
+    font-size: 25px;
     margin-right:20px;
     cursor: pointer;
 }
@@ -88,21 +87,21 @@ ul {
 }
 
 @media (max-width: 1000px) {
-    header{
-        padding: 20px 10px;
-    }
+
     body {
         font-size: 24px; 
         line-height: 1.6; 
     }
 
-    h1 {
-        font-size: 1.8rem;
+    header {
+        flex-direction: column;
     }
 
-    ul {
-        padding-left: 20px;
+    button {
+        margin: 5px 10px;
+        font-size: 35px;
     }
+
     .page {
         max-width: 90%; 
         padding: 30px 20px;
@@ -121,22 +120,9 @@ ul {
         font-size: 4.0rem; 
         margin: 10px;
     }
-
-    header {
-        flex-direction: column;
-        gap: 15px;
-                font-size: 2000px;
-    }
-
     .nav-left {
         display: flex;
+        flex-wrap: wrap;
     }
 
-    button {
-        margin: 5px 10px;
-        font-size: 14px;
-    }
-    a {
-        font-size: 1.2rem;
-    }
 }
