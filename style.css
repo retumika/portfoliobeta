@@ -86,7 +86,57 @@ ul {
     border-radius: 10px;
     object-fit: cover;
 }
-/*スマホ用に実装予定*/
-@media (max-width: 600px) {
-    
+
+@media (max-width: 1000px) {
+    header{
+        padding: 20px 10px;
+    }
+    body {
+        font-size: 24px; 
+        line-height: 1.6; 
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+    .page {
+        max-width: 90%; 
+        padding: 30px 20px;
+        margin: 20px auto;
+    }
+
+    .profile-outer-photo {
+        position: static;
+        display: block;
+        margin: 0 auto 20px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .fa-brands, .fa-github, .fa-x-twitter {
+        font-size: 4.0rem; 
+        margin: 10px;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+                font-size: 2000px;
+    }
+
+    .nav-left {
+        display: flex;
+    }
+
+    button {
+        margin: 5px 10px;
+        font-size: 14px;
+    }
+    a {
+        font-size: 1.2rem;
+    }
 }
