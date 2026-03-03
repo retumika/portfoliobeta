@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>管理者投稿ページ</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <div class="container">
+        <h1>お知らせ投稿</h1>
+        
+        <div id="login-section">
+            <p>管理者ログイン</p>
+            <input type="email" id="email" placeholder="メールアドレス">
+            <input type="password" id="password" placeholder="パスワード">
+            <button onclick="login()">ログイン</button>
+        </div>
+
+        <div id="post-section" class="hidden">
+            <p>投稿内容を入力してください</p>
+            
+            <input type="text" id="post-title" placeholder="タイトル">
+            <input type="date" id="post-date">
+            <textarea id="post-content" rows="6" placeholder="本文"></textarea>
+            <button onclick="postDiary()">公開</button>
+        </div>
+    </div>
+
+    <script type="module" src="admin.js"></script>
+</body>
+</html>

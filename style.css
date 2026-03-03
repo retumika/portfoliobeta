@@ -1,6 +1,6 @@
 body {
     line-height: 1.2;
-    background-color: #003135de;
+    background-color: #f7f7f7de;
     margin: 0 !important;
 }
 header {
@@ -38,6 +38,9 @@ h2 {
     color: #ffffff;
 }
 ul {
+    color: #ffffff;
+}
+div {
     color: #ffffff;
 }
 
