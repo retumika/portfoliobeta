@@ -1,5 +1,5 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-app.js";
-import { getFirestore, collection, getDocs, query, orderBy } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-firestore.js";
+import { initializeApp } from "firebase/app";
+import { getFirestore, collection, getDocs, query, orderBy } from "firebase/firestore";
 
 const firebaseConfig = {
 apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
