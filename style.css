@@ -3,6 +3,7 @@ body {
     background-color: #f7f7f7de;
     margin: 0 !important;
 }
+
 header {
     background-color: #00488f;
     padding: 15px;
@@ -10,14 +11,16 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
 button {
     background: none;
     color: #ffffff;
     border: none;
     font-size: 25px;
-    margin-right:20px;
+    margin-right: 20px;
     cursor: pointer;
 }
+
 button:hover {
     color: #00fff2;
 }
@@ -31,22 +34,28 @@ a:hover .fa-github,
 a:hover .fa-x-twitter {
     color: #48f6fc;
 }
+
 h1 {
     color: #00f7ff;
 }
+
 h2 {
     color: #ffffff;
 }
+
 ul {
     color: #ffffff;
 }
+
 div {
     color: #ffffff;
 }
 
-.fa-brands, .fa-github, .fa-x-twitter {
+.fa-brands,
+.fa-github,
+.fa-x-twitter {
     font-size: 10.0rem;
-    vertical-align: middle; 
+    vertical-align: middle;
     color: #ffffff;
 }
 
@@ -55,14 +64,17 @@ div {
     align-items: center;
     gap: 10px;
 }
+
 .site-header .contact .fa-brands {
     color: #ffffff;
     font-size: 1.5rem;
 }
+
 .contact-text {
     color: #ffffff;
     font-size: 1.0rem;
 }
+
 .page {
     display: none;
     padding: 50px 50px;
@@ -77,10 +89,11 @@ div {
 .page.active {
     display: block;
 }
+
 .profile-photo {
     position: absolute;
-    left: -200px;        
-    top: 50px; 
+    left: -200px;
+    top: 50px;
     width: 160px;
     height: 160px;
     border: 2px solid #000000;
@@ -91,8 +104,8 @@ div {
 @media (max-width: 1000px) {
 
     body {
-        font-size: 25px; 
-        line-height: 1.6; 
+        font-size: 25px;
+        line-height: 1.6;
     }
 
     header {
@@ -105,7 +118,7 @@ div {
     }
 
     .page {
-        max-width: 90%; 
+        max-width: 90%;
         padding: 30px 20px;
         margin: 20px auto;
     }
@@ -118,9 +131,11 @@ div {
         height: 150px;
     }
 
-    .fa-brands, .fa-github, .fa-x-twitter {
-        font-size: 15.0rem; 
+    .fa-brands,
+    .fa-github,
+    .fa-x-twitter {
+        font-size: 15.0rem;
         margin: 10px;
     }
-    
+
 }
