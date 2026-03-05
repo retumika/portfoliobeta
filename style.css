@@ -64,17 +64,6 @@ div {
     color: #ffffff;
 }
 
-.site-header .contact {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.site-header .contact .fa-brands {
-    color: #ffffff;
-    font-size: 1.5rem;
-}
-
 .page {
     display: none;
     padding: 50px 50px;
