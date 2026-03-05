@@ -27,9 +27,8 @@ window.login = async () => {
         await signInWithEmailAndPassword(auth, email, pass);
         document.getElementById('login-section').classList.add('hidden');
         document.getElementById('post-section').classList.remove('hidden');
-        alert("ログイン成功！");
     } catch (e) {
-        alert("ログイン失敗：" + e.message);
+        alert("エラー\n" + e.message);
     }
 };
 
