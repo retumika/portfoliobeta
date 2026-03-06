@@ -1,7 +1,7 @@
 body {
     
     line-height: 1.5;
-    background-color: #f7f7f7de;
+    background-color: #ffffff;
     margin: 0 !important;
     
 }
@@ -17,7 +17,7 @@ header {
 }
 
 button {
-    transition: all 0.3s;
+    transition: all 0.5s;
     background: none;
     color: #ffffff;
     border: none;
@@ -37,6 +37,7 @@ a {
 
 a:hover .fa-github,
 a:hover .fa-x-twitter {
+    transition: all 0.5s;
     color: #48f6fc;
 }
 
@@ -70,7 +71,7 @@ div {
     border: 2px solid #000000;
     background-color: #00488f;
     border-radius: 10px;
-    max-width: 500px;
+    max-width: 700px;
     min-width: 300px;
     margin: 40px auto;
     position: relative;
@@ -90,8 +91,17 @@ div {
     border-radius: 10px;
     object-fit: cover;
 }
-
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
+    
+    .profile-photo {
+        position: static;
+        display: block;
+        margin: 0 auto 20px;
+        width: 100%;
+        max-width: 400px;
+    }
+}
+@media (max-width: 800px) {
 
     body {
         font-size: 30px;
