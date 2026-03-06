@@ -17,13 +17,13 @@ header {
 }
 
 button {
+    padding: 15px 10px;
     transition: all 0.5s;
     background: none;
     color: #ffffff;
     border: none;
     font-size: 2.0rem;
-    margin-right: 20px;
-    cursor: pointer;
+    margin-right: 30px;
 }
 
 button:hover {
@@ -101,10 +101,6 @@ div {
         padding: 40px 80px;
     }
 
-    h1 {
-        font-size: 4rem;
-    }
-
     button {
         font-size: 3rem;
         margin-right: 50px;
@@ -156,8 +152,9 @@ div {
 
     button {
         margin: 5px 10px;
-        font-size: 45px;
+        font-size: 2.5rem;
     }
+
 
     .page {
         max-width: 90%;
