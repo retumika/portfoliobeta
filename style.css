@@ -91,8 +91,50 @@ div {
     border-radius: 10px;
     object-fit: cover;
 }
+@media (min-width: 2600px) {
+    body {
+        font-size: 2rem; 
+    }
+
+    header {
+        padding: 40px 80px;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    button {
+        font-size: 3rem;
+        margin-right: 50px;
+    }
+
+    .page {
+        max-width: 1200px; 
+        padding: 100px;
+        margin-top: 100px;
+        border-width: 4px;
+    }
+
+    .profile-photo {
+        width: 450px;
+        height: 450px;
+        left: -550px;
+        top: 100px;
+        border-width: 4px;
+    }
+
+    .fa-brands,
+    .fa-github,
+    .fa-x-twitter {
+        font-size: 15.0rem;
+    }
+}
 @media (max-width: 1400px) {
-    
+    .page {
+        padding: 30px 20px;
+        margin: 20px auto;
+    }
     .profile-photo {
         position: static;
         display: block;
