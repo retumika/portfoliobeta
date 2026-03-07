@@ -133,6 +133,10 @@ div {
     body {
         font-size: 1.5rem;
     }
+    header {
+        flex-direction: column;
+        padding: 20px;
+    }
     .page {
         max-width: 90%;
         padding: 60px 30px;
@@ -147,25 +151,5 @@ div {
         width: 100%;
         max-width: 400px;
         height: auto;
-    }
-}
-
-@media (max-width: 800px) {
-    body {
-        font-size: 2.0rem;
-    }
-
-    header {
-        flex-direction: column;
-        padding: 20px;
-    }
-
-    button {
-        font-size: 2.5rem;;
-    }
-
-    .page {
-        max-width: 90%;
-        padding: 40px 20px;
     }
 }
