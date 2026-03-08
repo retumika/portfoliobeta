@@ -155,6 +155,15 @@ div {
 }
 
 @media (max-width: 800px) {
+    body {
+        background-attachment: scroll !important; 
+        background-position: center 0px !important;
+        background-size: cover;
+    }
+    html, body {
+        height: 100%;
+        overflow-x: hidden;
+    }
     button {
         font-size: 1.5rem;
     }
