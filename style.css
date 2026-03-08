@@ -166,7 +166,6 @@ div {
         padding: 10px 5px !important;
     }
     body {
-        background-attachment: scroll !important;
         background-position: center 0px !important;
         background-size: cover;
     }
