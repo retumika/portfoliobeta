@@ -165,10 +165,6 @@ div {
         margin-right: 0 !important;
         padding: 10px 5px !important;
     }
-    body {
-        background-position: center 0px !important;
-        background-size: cover;
-    }
     .btn-text {
         font-size: 0.5rem;
     }
