@@ -4,7 +4,7 @@ body {
     background-color: light-dark(white, black);
     color: light-dark(black, white);
 
-    
+
     line-height: 1.5;
     margin: 0 !important;
     
@@ -84,7 +84,10 @@ div {
     margin: 40px auto;
     position: relative;
 }
-
+.language-icon {
+    width: 100px;
+    margin: 10px;
+}
 .page.active {
     display: block;
 }

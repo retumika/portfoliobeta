@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ポートフォリオ</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -14,22 +14,22 @@
     <header class="site-header">
         <div class="nav-left">
             <button onclick="showPage('profile')">
-                <span class="btn-text">プロフィール</span>
+                <span class="btn-text">Profile</span>
                 <i class="fa-solid fa-address-book"></i>
             </button>
 
             <button onclick="showPage('diary')">
-                <span class="btn-text">お知らせ</span>
+                <span class="btn-text">News</span>
                 <i class="fa-solid fa-newspaper"></i>
             </button>
 
             <button onclick="showPage('works')">
-                <span class="btn-text">リンク</span>
+                <span class="btn-text">Links</span>
                 <i class="fa-solid fa-link"></i>
             </button>
 
             <button onclick="showPage('history')">
-                <span class="btn-text">経歴と資格</span>
+                <span class="btn-text">Others</span>
                 <i class="fa-solid fa-circle-info"></i>
             </button>
         </div>
@@ -38,18 +38,29 @@
     <section id="profile" class="page active">
         <img src="images/a.png" class="profile-photo" alt="プロフィール">
         
-        <h1>プロフィール</h1>
-        <ul>名前：retumika</ul>
-        <ul>出身：北海道札幌市</ul>
-        <ul>大学：北海道科学大学 工学部 情報工学科</ul>
-        <ul>趣味：旅行と読書　台湾旅行楽しかった！</ul>
-        <ul>アルバイト：古本屋</ul>
-        <ul>メインでやっている言語：C言語</ul>
-        <ul>勉強中の言語：JavaScript</ul>
+        <h1>Profile</h1>
+        <ul>Name：Retumika</ul>
+        <ul>Origin：北海道札幌市</ul>
+        <ul>University：北海道科学大学 工学部 情報工学科</ul>
+        <ul>Hobbies：旅行と読書</ul>
+        <ul>Part-time Job：古本屋</ul>
+        <h1>Main</h1>
+        <img src="images/C.svg" class="language-icon" alt="C言語">
+        <img src="images/CSS.svg" class="language-icon" alt="CSS">
+        <img src="images/HTML.svg" class="language-icon" alt="HTML">
+        <img src="images/JavaScript.svg" class="language-icon" alt="JavaScript">
+        <h1>Sub</h1>
+        <img src="images/NodeJS-Dark.svg" class="language-icon" alt="Node.js">
+        <img src="images/Firebase-Dark.svg" class="language-icon" alt="Firebase">
+        <img src="images/SQLite.svg" class="language-icon" alt="SQLite">
+
+
+        
+
     </section>
     
     <section id="diary" class="page">
-        <h1>お知らせ</h1>
+        <h1>News</h1>
         <div id="diary-list">
             <p>読み込み中...</p>
         </div>
@@ -58,7 +69,7 @@
 
 
     <section id="works" class="page">
-        <h1>リンク</h1>
+        <h1>Links</h1>
         <ul>
             <a href="https://github.com/retumika" target="_blank">
                 <i class="fa-brands fa-github"></i>
@@ -71,12 +82,12 @@
     </section>
 
     <section id="history" class="page">
-        <h1>経歴と資格</h1>
-        <h2>資格</h2>
+        <h1>Others</h1>
+        <h2>Qualifications</h2>
         <ul>基本情報技術者</ul>
         <ul>普通自動車第一種運転免許</ul>
         <ul>漢語水平考試4級</ul>
-        <h2>経歴</h2>
+        <h2>Experience</h2>
         <ul>SysHack 2026(ハッカソン)に参加予定</ul>
     </section>
 
