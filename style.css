@@ -1,4 +1,10 @@
 body {
+
+    color-scheme: light dark;
+    background-color: light-dark(white, black);
+    color: light-dark(black, white);
+
+    
     line-height: 1.5;
     margin: 0 !important;
     
