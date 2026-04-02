@@ -1,12 +1,11 @@
 body {
 
     color-scheme: light dark;
-    background-color: light-dark(white, black);
-    color: light-dark(black, white);
-
+    background-color: light-dark(#fff, #000);
+    color: light-dark(#000, #fff);
 
     line-height: 1.5;
-    margin: 0 !important;
+    margin: 0;
     
     background-size: cover;
     background-position: center 20%;
@@ -24,9 +23,8 @@ header {
 
 button {
     padding: 15px 5px;
-    transition: all 0.5s;
     background: none;
-    color: #ffffff;
+    color: #fff;
     border: none;
     font-size: 2.0rem;
     margin-right: 30px;
@@ -42,8 +40,7 @@ a {
     text-decoration: none;
 }
 
-a:hover .fa-github,
-a:hover .fa-x-twitter {
+a:hover .fa-brands {
     color: #48f6fc;
 }
 
@@ -52,21 +49,21 @@ h1 {
     color: #00f7ff;
 }
 
-h2 {
-    color: #ffffff;
-
-}
-
-ul {
-    color: #ffffff;
-}
-
-div {
-    color: #ffffff;
-}
 ul li {
     list-style: none;
     margin-bottom: 10px;
+}
+
+.nav-left button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), filter 0.3s, color 0.3s;
+}
+
+.nav-left button:hover {
+    transform: translateY(-5px) scale(1.1);
+    filter: drop-shadow(0 0 10px rgba(0, 247, 255, 0.8));
 }
 
 .syshack-link {
@@ -79,18 +76,17 @@ ul li {
     width: 300px;
     border-radius: 8px;
     border: 2px solid #00f7ff;
-    transition: .5s;
+    transition: .3s;
 }
 
 .syshack-link p {
     font-size: 1.2rem;
-    color: #ffffff;
     margin-top: 10px;
-    transition: .5s;
+    transition: .3s;
 }
 
 .syshack-link:hover .syshack-thumb {
-    transform: scale(1.05);
+    transform: scale(1.1);
     box-shadow: 0 0 15px #00f7ff;
 }
 
@@ -99,29 +95,42 @@ ul li {
     text-shadow: 0 0 10px #00fff2;
 }
 
-.fa-brands,
-.fa-github,
-.fa-x-twitter {
+.fa-brands {
     font-size: 10.0rem;
     vertical-align: middle;
-    color: #ffffff;
 }
 
 .page {
     display: none;
-    padding: 50px 50px;
-    border: 2px solid #000000;
+    padding: 50px;
+    border: 2px solid #000;
     background-color: rgba(2, 82, 187, 0.75);
     border-radius: 10px;
     max-width: 700px;
     min-width: 300px;
     margin: 40px auto;
     position: relative;
+    color: #fff;
 }
+
+#works a {
+    display: inline-block; 
+    margin: 0 20px;
+    color: #fff;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), filter 0.3s, color 0.3s;
+}
+
+#works a:hover {
+    color: #00fff2;
+    transform: translateY(-10px) scale(1.1); 
+    filter: drop-shadow(0 0 20px rgba(0, 247, 255, 0.8));
+}
+
 .language-icon {
     width: 100px;
     margin: 10px;
 }
+
 .page.active {
     display: block;
 }
@@ -132,7 +141,7 @@ ul li {
     top: 50px;
     width: 260px;
     height: 260px;
-    border: 2px solid #000000;
+    border: 2px solid #000;
     border-radius: 10px;
     object-fit: cover;
 }
@@ -165,12 +174,10 @@ ul li {
 }
 
 .travel-item p {
-    color: #ffffff;
     margin-top: 10px;
     font-size: 1rem;
     transition: .4s ease;
 }
-
 #particle-canvas {
     position: fixed;
     top: 0;
@@ -179,6 +186,7 @@ ul li {
     height: 100%;
     z-index: -1;
 }
+
 @media (min-width: 2600px) {
     body {
         font-size: 2.5rem;
@@ -208,9 +216,7 @@ ul li {
         border-width: 4px;
     }
 
-    .fa-brands,
-    .fa-github,
-    .fa-x-twitter {
+    .fa-brands {
         font-size: 15.0rem;
     }
 }
@@ -221,9 +227,11 @@ ul li {
         flex-direction: column;
         padding: 20px;
     }
+
     button {
         font-size: 1.5rem;
     }
+
     .page {
         max-width: 90%;
         padding: 60px 30px;
@@ -246,16 +254,19 @@ ul li {
         display: flex;
         flex-direction: column;
         gap: 4px;
-        margin-right: 0 !important;
-        padding: 10px 5px !important;
+        margin-right: 0;
+        padding: 10px 5px;
     }
+
     .btn-text {
         font-size: 0.75rem;
     }
+
     .nav-left i {
         display: inline-block;
         font-size: 2.0rem;
     }
+
     .nav-left {
         
         display: flex;
