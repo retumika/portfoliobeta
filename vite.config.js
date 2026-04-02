@@ -7,6 +7,7 @@ export default defineConfig({
             input: {
                 main: resolve(__dirname, 'index.html'),
                 admin: resolve(__dirname, 'admin.html'),
+                syshack: resolve(__dirname, 'Syshack2026.html'),
             },
         },
     },

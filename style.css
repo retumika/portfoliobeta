@@ -64,6 +64,40 @@ ul {
 div {
     color: #ffffff;
 }
+ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.syshack-link {
+    width: fit-content;
+    margin: 20px 0; 
+    text-align: left; 
+}
+
+.syshack-thumb {
+    width: 300px;
+    border-radius: 8px;
+    border: 2px solid #00f7ff;
+    transition: .5s;
+}
+
+.syshack-link p {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-top: 10px;
+    transition: .5s;
+}
+
+.syshack-link:hover .syshack-thumb {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #00f7ff;
+}
+
+.syshack-link:hover p {
+    color: #00fff2;
+    text-shadow: 0 0 10px #00fff2;
+}
 
 .fa-brands,
 .fa-github,
