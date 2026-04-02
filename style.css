@@ -178,6 +178,36 @@ ul li {
     font-size: 1rem;
     transition: .4s ease;
 }
+
+.microspot-link {
+    display: inline-block;
+    text-align: left;
+    color: #fff;
+    margin-top: 20px;
+    transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), filter 0.3s, color 0.3s;
+}
+
+.microspot-link img {
+    width: 50%;
+    min-width: 250px;
+    border-radius: 12px;
+    border: 2px solid #00f7ff;
+    margin-bottom: 10px;
+}
+
+.microspot-link p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.microspot-link:hover {
+    color: #00fff2;
+    transform: translateY(-10px) scale(1.05);
+    filter: drop-shadow(0 0 20px rgba(0, 247, 255, 0.8));
+}
+
+
+
 #particle-canvas {
     position: fixed;
     top: 0;
