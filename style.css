@@ -367,3 +367,96 @@ a:hover .fa-brands {
         gap: 14px;
     }
 }
+
+@media (prefers-color-scheme: light) {
+    body {
+        color-scheme: light;
+        background-color: #ffffff;
+        color: #000000;
+    }
+
+    button {
+        color: #ffffff;
+    }
+
+    .page {
+        background: rgba(2, 82, 187, 0.75);
+        border: 2px solid #000000;
+        color: #ffffff;
+        box-shadow: none;
+        backdrop-filter: none;
+    }
+
+    .site-title {
+        color: #00f7ff;
+        -webkit-text-fill-color: #00f7ff;
+        background: none;
+    }
+
+    header {
+        background: rgba(0, 72, 143, 0.9);
+        border-bottom: 2px solid #000000;
+        box-shadow: none;
+    }
+
+    h1 {
+        color: #00f7ff;
+        border-bottom: 2px solid #000000;
+    }
+
+    h2 {
+        color: #ffffff;
+    }
+
+    .profile-photo {
+        border: 2px solid #000000;
+    }
+
+    .fa-brands,
+    #works a {
+        color: #ffffff;
+    }
+
+    a:hover .fa-brands,
+    #works a:hover {
+        color: #00fff2;
+    }
+
+    .nav-left button {
+        color: #ffffff;
+    }
+
+    .nav-left button:hover {
+        color: #00fff2;
+    }
+
+    .syshack-link,
+    .microspot-link {
+        color: #ffffff;
+    }
+
+    .syshack-thumb {
+        border: 2px solid #00f7ff;
+    }
+
+    .microspot-link img {
+        border: 2px solid #00f7ff;
+    }
+
+    .image-frame {
+        border: 2px solid #00f7ff;
+    }
+
+    .travel-item p {
+        color: #ffffff;
+    }
+
+    ul li {
+        color: #ffffff;
+    }
+
+    .language-icon {
+        width: 100px;
+        margin: 10px;
+    }
+}
