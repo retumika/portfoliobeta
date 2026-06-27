@@ -17,6 +17,7 @@ body {
     line-height: 1.6;
     margin: 0;
     font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    font-size: 1.1rem;
     background-size: cover;
     background-position: center 20%;
     background-attachment: fixed;
@@ -54,7 +55,7 @@ a {
 
 h1 {
     color: var(--accent);
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     margin-top: 30px;
     margin-bottom: 16px;
     padding-bottom: 8px;
@@ -63,7 +64,7 @@ h1 {
 
 h2 {
     color: var(--text);
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     margin-top: 24px;
 }
 
@@ -73,7 +74,7 @@ ul li {
 }
 
 .site-title {
-    font-size: 1.8rem;
+    font-size: 3.5rem;
     font-weight: 700;
     background: linear-gradient(135deg, var(--accent), #48f6fc);
     -webkit-background-clip: text;
@@ -298,6 +299,40 @@ a:hover .fa-brands {
     .language-icon {
         width: 100px;
         margin: 10px;
+    }
+}
+
+@media (min-width: 1400px) {
+    body {
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+    }
+
+    button {
+        font-size: 2.5rem;
+    }
+
+    .site-title {
+        font-size: 4rem;
+    }
+
+    .fa-brands {
+        font-size: 12rem;
+    }
+
+    .page {
+        padding: 60px;
+    }
+
+    ul li {
+        font-size: 1.5rem;
     }
 }
 
