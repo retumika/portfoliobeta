@@ -3,8 +3,12 @@
     "routes":
     [
         {
-        "src": "/.well-known/discord",
-        "dest": "/.well-known/discord"
+            "src": "/.well-known/discord",
+            "dest": "/.well-known/discord"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "/$1"
         }
     ]
 }
