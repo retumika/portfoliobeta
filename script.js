@@ -13,6 +13,13 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
+const sanitizer = (text) => {
+    return text.replace(/&/g,"&amp;")
+               .replace(/</g,"&lt;")
+               .replace(/>/g,"&gt;")
+               .replace(/"/g,"&quot;");
+}
+
 async function loadNews() {
     const newsList = document.getElementById('diary-list');
     try {
@@ -24,9 +31,9 @@ async function loadNews() {
             const data = doc.data();
             html += `
         <div class="news-item" style="margin-bottom: 20px; border-bottom: 1.0px solid #ffffff; padding-bottom: 20px;">
-            <h3 style="color: #00f7ff; margin: 5px 0;">${data.title}</h3>
-            <small>${data.date}</small>
-            <p>${data.content}</p>
+            <h3 style="color: #00f7ff; margin: 5px 0;">${sanitizer(data.title)}</h3>
+            <small>${sanitizer(data.date)}</small>
+            <p>${sanitizer(data.content)}</p>
         </div>
     `;
         });
