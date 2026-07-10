@@ -130,9 +130,13 @@ ul li {
     filter: drop-shadow(0 0 20px rgba(0, 247, 255, 0.8));
 }
 
-.language-icon {
-    width: 100px;
-    margin: 10px;
+
+.skill-icon-main {
+    width: 400px;
+}
+
+.skill-icon-sub {
+    width: 200px;
 }
 
 .page.active {
