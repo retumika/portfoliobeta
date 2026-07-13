@@ -133,10 +133,14 @@ ul li {
 
 .skill-icon-main {
     width: 400px;
+    max-width: 100%;
+    height: auto;
 }
 
 .skill-icon-sub {
     width: 200px;
+    max-width: 100%;
+    height: auto;
 }
 
 .page.active {
